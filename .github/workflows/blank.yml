@@ -4,7 +4,6 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  workflow_call:
   pull_request:
     branches: [ "main" ]
 
